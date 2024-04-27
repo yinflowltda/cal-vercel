@@ -1,6 +1,6 @@
 # github submodule repo addresses without https:// prefix
 BRANCH_TO_CLONE="main"
-SUBMODULE_GITHUB=github.com/yinflowltda/vercel-new
+SUBMODULE_GITHUB=github.com/yinflowltda/cal-vercel
 SUBMODULE_PATH=apps/api/v1
 COMMIT=$VERCEL_GIT_COMMIT_SHA
 
@@ -34,7 +34,7 @@ git config --global advice.detachedHead false
 rm -rf ..?* .[!.]* * || true
 
 # checkout the current commit
-git clone $BRANCH_TO_CLONE https://$GITHUB_ACCESS_TOKEN@github.com/calcom/cal.com.git .
+git clone https://$GITHUB_ACCESS_TOKEN@github.com/yinflowltda/cal-vercel.git $BRANCH_TO_CLONE
 
 echo "Cloned"
 
