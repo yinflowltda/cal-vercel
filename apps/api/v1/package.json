@@ -1,5 +1,5 @@
 {
-  "name": "@calcom/api",
+  "name": "@yinflowltda/api",
   "version": "1.0.0",
   "description": "Public API for Cal.com",
   "main": "index.ts",
