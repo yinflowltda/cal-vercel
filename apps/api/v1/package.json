@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Public API for Cal.com",
   "main": "index.ts",
-  "repository": "git@github.com:calcom/api.git",
+  "repository": "git@github.com:yinflowltda/vercel-new.git",
   "author": "Cal.com Inc.",
   "private": true,
   "scripts": {
